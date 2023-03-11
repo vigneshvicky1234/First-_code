@@ -1,0 +1,18 @@
+using System;
+
+namespace MyCompiler {
+    class Program {
+        public static void Main(string[] args) {
+            //we find the Reverse Number
+            int[] firstcode={1,2,3,4,5,6};
+            for(int i=firstcode.Length-1;i>=0;i--)
+            {
+             Console.WriteLine(firstcode[i]);
+            
+        }
+    }
+}
+}
+
+
+
